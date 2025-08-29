@@ -16,3 +16,12 @@ copyButtons.forEach((btn) => {
         alert("Copied: " + serviceNumber);
     });
 });
+let sum=0;
+const copyButtons2 = document.querySelectorAll(".heart-btn");
+
+copyButtons2.forEach((btn) => {
+    btn.addEventListener("click", function() {
+        sum += 1;
+        document.getElementById("countHeart").innerHTML = sum 
+    }); 
+});
