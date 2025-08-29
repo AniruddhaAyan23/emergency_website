@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Service</title>
+
     <link rel="stylesheet" href="styles/style.css">
     <!--tailwind cdn-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -13,12 +14,12 @@
 </head>
 <body>
     <!--banner section -->
-    <div class="parent div flex border-4 border-red-500 w-[1920px] min-h-[100px] ">
-        <div class="right div border-4 border-yellow-400 w-[200px] min-h-[100px]">
+    <div class="parent div flex w-[1920px] min-h-[100px] ">
+        <div class="right div w-[200px] min-h-[100px]">
             <img class="w-[50px] min-h-[50px] mt-5 ml-25" src="assets/logo.png" alt="">
             
         </div>
-        <div class="left div flex border-4 border-green-400 w-[1800px] min-h-[100px]">
+        <div class="left div flex w-[1800px] min-h-[100px]">
             <h1 class="text-[30px] font-bold text-[#006747]">Emergency<br> Service</h1>
             <!--button here-->
             <div class="btn flex gap-9 ml-250 mt-5">
@@ -41,8 +42,8 @@
 
     </div>
     <!-- main header -->
-    <div class="header div w-[1920px] h-[240px] border-4 border-red-600 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] ">
-        <div class=" logo flex items-center justify-center mt-4">
+    <div class="header div w-[1920px] h-[240px] gap-x-0 gap-y-0 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] ">
+        <div class=" logo flex items-center justify-center mt-1">
             <img class="w-[92px] h-[92px] " src="assets/logo-dark.png" alt="">
         </div>
         <div class="text-center">
@@ -50,6 +51,50 @@
             <p class="text-white text-[20px] mt-4">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
         </div>
     </div>
+
+
+    <!--boxes section-->
+<div class="bg-[#41ff6b1a] w-full min-h-screen mt-12 p-8 flex justify-start">
+  <div class="grid grid-cols-3 gap-4">
+    
+    <div class="box-1 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">National Emergency Number</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">National Emergency</p> <h1 class="font-bold text-[24px] ml-2">999</h1> <button class="text-[20px] text-[gray] w-[53px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >All</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 2 -->
+    <div class="box-2 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#dfefff] w-[60px] h-[60px] rounded-xl" src="assets/police.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Police Helpline Number</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Police</p> <h1 class="font-bold text-[24px] ml-2">999</h1> <button class="text-[20px] text-[gray] w-[70px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Police</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 3 -->
+    <div class="box-3 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/fire-service.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Fire Service Number</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Fire Service</p> <h1 class="font-bold text-[24px] ml-2">999</h1> <button class="text-[20px] text-[gray] w-[53px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Fire</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 4 -->
+    <div class="box-4 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/ambulance.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Ambulance Service</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Ambulance</p> <h1 class="font-bold text-[24px] ml-2">1994-999999</h1> <button class="text-[20px] text-[gray] w-[68px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Health</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 5 -->
+    <div class="box-5 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Women & Child Helpline</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Women & Child Helpline</p> <h1 class="font-bold text-[24px] ml-2">109</h1> <button class="text-[20px] text-[gray] w-[68px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Help</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 6 -->
+    <div class="box-6 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Anti Corruption Helpline</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Anti-Corruption</p> <h1 class="font-bold text-[24px] ml-2">106</h1> <button class="text-[20px] text-[gray] w-[68px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Govt.</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 7 -->
+    <div class="box-7 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Electricity Helpline</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Electricity Outage</p> <h1 class="font-bold text-[24px] ml-2">16216</h1> <button class="text-[20px] text-[gray] w-[98px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Electricity</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 8 -->
+    <div class="box-8 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Brac Helpline</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Brac</p> <h1 class="font-bold text-[24px] ml-2">16445</h1> <button class="text-[20px] text-[gray] w-[68px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >NGO</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+    <!-- box 9 -->
+    <div class="box-9 border-2 border-gray-100 bg-[white] w-[436px] h-[360px] p-8 mt-[10px] ml-[10px] rounded-xl shadow-lg"> <div class="top pictures flex justify-between w-[350px] h-[70px]"> <img class=" bg-[#ffe3e2] w-[60px] h-[60px] rounded-xl" src="assets/emergency.png" alt=""> <i class="fa-solid fa-heart fa-2x mt-3 "></i> </div> <h1 class="font-bold text-[24px]">Bangladesh Railway Helpline</h1> <p class="text-[18px] text-[#5c5c5c] font-medium">Bangladesh Railway</p> <h1 class="font-bold text-[24px] ml-2">163</h1> <button class="text-[20px] text-[gray] w-[68px] h-[37px] bg-[#cda2a2c4] rounded-[50px] ml-0" >Travel</button> <div class="flex justify-normal space-x-5"> <button class=" 3rd btn text-[20px] text-[gray] w-[182px] h-[40px] bg-[white] shadow rounded-lg mt-7">Copy</button> <button class=" 3rd btn text-[20px] text-[white] w-[182px] h-[40px] bg-[#00a63e] shadow rounded-lg mt-7 ">Call</button> </div> </div>
+
+  </div>
+</div>
+
+
+        
+       
+</div>
+
+    </div>
+    </body>
+
+
     
 
     
