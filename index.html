@@ -34,7 +34,8 @@
                 <p class="text-lg">100</p>
                 <img class="w-5 h-5" src="assets/coin.png" alt="">
             </button>
-            <button class="w-32 h-12 bg-[#00a63e] text-white rounded-full text-lg">Copy</button>
+            
+            <button id="countLabel" class="w-32 h-12 bg-[#00a63e] text-white rounded-full text-lg">0 Copy</button>
         </div>
     </div>
 </div>
@@ -66,11 +67,11 @@
                 </div>
                 <h1 class="font-bold text-xl">National Emergency Number</h1>
                 <p class="text-gray-600 font-medium">National Emergency</p>
-                <h1 class="font-bold text-xl ml-2">999</h1>
+                <h1 class="font-bold service-number text-xl ml-2">999</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-16 h-9 bg-[#5c5c5c1a] rounded-full mt-2">All</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
-        <i class="fa-solid fa-copy"></i>Copy
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+        <i class="fa-solid fa-copy"></i> Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-phone"></i>Call
@@ -87,10 +88,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Police Helpline Number</h1>
                 <p class="text-gray-600 font-medium">Police</p>
-                <h1 class="font-bold text-xl ml-2">999</h1>
+                <h1 class="font-bold service-number text-xl ml-2">999</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Police</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -108,10 +109,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Fire Service Number</h1>
                 <p class="text-gray-600 font-medium">Fire Service</p>
-                <h1 class="font-bold text-xl ml-2">999</h1>
+                <h1 class="font-bold service-number text-xl ml-2">999</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-16 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Fire</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -129,10 +130,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Ambulance Service</h1>
                 <p class="text-gray-600 font-medium">Ambulance</p>
-                <h1 class="font-bold text-xl ml-2">1994-999999</h1>
+                <h1 class="font-bold service-number text-xl ml-2">1994-999999</h1><p class="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Health</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -150,10 +151,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Women & Child Helpline</h1>
                 <p class="text-gray-600 font-medium">Women & Child Helpline</p>
-                <h1 class="font-bold text-xl ml-2">109</h1>
+                <h1 class="font-bold service-number text-xl ml-2">109</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Help</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -171,10 +172,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Anti Corruption Helpline</h1>
                 <p class="text-gray-600 font-medium">Anti-Corruption</p>
-                <h1 class="font-bold text-xl ml-2">106</h1>
+                <h1 class="font-bold service-number text-xl ml-2">106</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Govt.</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -192,10 +193,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Electricity Helpline</h1>
                 <p class="text-gray-600 font-medium">Electricity Outage</p>
-                <h1 class="font-bold text-xl ml-2">16216</h1>
+                <h1 class="font-bold service-number text-xl ml-2">16216</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-24 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Electricity</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -213,10 +214,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Brac Helpline</h1>
                 <p class="text-gray-600 font-medium">Brac</p>
-                <h1 class="font-bold text-xl ml-2">16445</h1>
+                <h1 class="font-bold service-number text-xl ml-2">16445</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">NGO</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn border-2 border-gray-400 text-sm w-44 h-10 bg-white shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -234,10 +235,10 @@
                 </div>
                 <h1 class="font-bold text-xl">Bangladesh Railway Helpline</h1>
                 <p class="text-gray-600 font-medium">Bangladesh Railway</p>
-                <h1 class="font-bold text-xl ml-2">163</h1>
+                <h1 class=" service-number font-bold text-xl ml-2">163</h1><p id="countLabel"></p>
                 <button class="text-gray-600 text-sm w-20 h-9 bg-[#5c5c5c1a] rounded-full mt-2">Travel</button>
                 <div class="flex gap-2 mt-4 flex-nowrap overflow-x-auto">
-    <button class="text-gray-600 text-sm w-44 h-10 bg-white border-2 border-gray-400 shadow rounded-lg flex items-center justify-center gap-2">
+    <button class="text-gray-600 copy-btn text-sm w-44 h-10 bg-white border-2 border-gray-400 shadow rounded-lg flex items-center justify-center gap-2">
         <i class="fa-solid fa-copy"></i>Copy
     </button>
     <button class="text-white text-sm w-44 h-10 bg-[#00a63e] shadow rounded-lg flex items-center justify-center gap-2">
@@ -270,5 +271,7 @@
 
     </div>
 </div>
+<!--js scripts-->
+<script src="./script.js"></script>
 </body>
 </html>
