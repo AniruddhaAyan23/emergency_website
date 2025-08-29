@@ -108,13 +108,18 @@ This Section will have layout as figma
 
 You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
 
-### 6. Answer the following questions clearly:
+### 6. Answered the following questions clearly:
 
 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-2. How do you **create and insert a new element into the DOM**?
-3. What is **Event Bubbling** and how does it work?
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+2. Ans to 1 :getElementById returns a single elment to the id assigned to it, getElementsByClassName returns all elements by its class name , querySelector only returns the first element that matches the initial CSS selector, the last one returns node list of all matching elements 
+3. How do you **create and insert a new element into the DOM**?
+4. Ans to 2 : first we have to create element, next add classes, text, ids. then pick parent element where i want to insert it into the DOM . then append child elements. 
+5. What is **Event Bubbling** and how does it work?
+6. Ans to 3 : Event bubbling is way to navigate through DOM where a child element bubbles to it parent elements. When it happens it goes to the target element and then to each its own parent element following an order . 
+7. What is **Event Delegation** in JavaScript? Why is it useful?
+8. Ans to 4 : It is a way how a single event listener to of a parent element controls events for it child elements. It is very useful as it lessens usage of Memory . 
+9. What is the difference between **preventDefault() and stopPropagation()** methods?
+10. Ans to 5 : first one prevents the browser from jumping on to unknown link , second one prevents the parent or child elments to not get event elements from DOM . 
 
 ---
 
